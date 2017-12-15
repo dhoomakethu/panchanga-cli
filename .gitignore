@@ -97,3 +97,4 @@ ENV/
 
 /panchanga/lib/geonames.py
 /panchanga/lib/geonames_dump_to_sqlite.py
+/panchanga/server/cache/

@@ -18,13 +18,14 @@ Requirements
 Install requirements.
 ```
      pip install -r requirements
-     pip install https://github.com/dhoomakethu/pyphoon/tarball/master#egg=pyphoon-1.0
+     pip install pyphoon-1.0.tar.gz
 
 ```
 
 Using the Application
 ---------------------
 ```
+$./panchanga_cli --help
 usage: panchanga_cli [-h] [--data-dir str)] [-d (str)] [-p (str] [--lat LAT]
                      [--long LONG] [--timezone TIMEZONE] [--no-weather]
                      [--no-moon] [--offline] [--version]
@@ -49,7 +50,7 @@ optional arguments:
 
 
 ```
-$ panchanga
+$ ./panchanga_cli
 
 ┌──────────────────────────────────────┬──────────────────────────────────────┬──────────────────────────────────────┐
 │ Place: bengaluru                     │ Bengaluru, India                     │      ..--.                           │
